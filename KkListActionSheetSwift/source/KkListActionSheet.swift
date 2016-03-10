@@ -103,7 +103,7 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
     }
     
     public func getTitle() -> String {
-        return self.titleLabel.text
+        return self.titleLabel.text!
     }
     
     // initial Method
