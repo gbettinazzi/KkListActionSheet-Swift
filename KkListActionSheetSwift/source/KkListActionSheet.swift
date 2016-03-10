@@ -101,6 +101,11 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
         return self.kkTableView
     
     }
+    
+    public func getTitle() -> String {
+        return self.titleLabel.text
+    }
+    
     // initial Method
     private func initialKkListActionSheet() {
         animatingFlg = false
