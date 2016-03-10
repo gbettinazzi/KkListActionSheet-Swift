@@ -198,6 +198,12 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
         self.titleLabel.attributedText = attrTitle
     }
     
+    public func setTitleFontAndSize(fontName: String, fontSize: CGFloat ) {
+        
+        self.titleLabel.font = UIFont(name: fontName, fontSize: fontSize)
+        
+    }
+    
     // MARK: Gesture Recognizer Action
     func onTapGesture(recognizer: UITapGestureRecognizer) {
         self.showHide()
