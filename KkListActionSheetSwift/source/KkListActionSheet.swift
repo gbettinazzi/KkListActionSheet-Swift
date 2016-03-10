@@ -96,7 +96,11 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
         parent.view.addSubview(initClass)
         return initClass
     }
+    public func getTableView() -> UITableView {
     
+        return self.kkTableView
+    
+    }
     // initial Method
     private func initialKkListActionSheet() {
         animatingFlg = false
