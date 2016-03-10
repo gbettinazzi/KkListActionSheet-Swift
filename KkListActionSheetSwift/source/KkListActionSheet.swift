@@ -200,7 +200,7 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
     
     public func setTitleFontAndSize(fontName: String, fontSize: CGFloat ) {
         
-        self.titleLabel.font = UIFont(name: fontName, fontSize: fontSize)
+        self.titleLabel.font = UIFont(name: fontName, size: fontSize)
         
     }
     
