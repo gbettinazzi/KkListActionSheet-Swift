@@ -132,7 +132,7 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
         // Setting CloseButton Layout
         kkCloseButton.translatesAutoresizingMaskIntoConstraints = true
         var closeBtnRect = kkCloseButton.frame
-        closeBtnRect.size.width = largeOrientation
+        closeBtnRect.size.width = 50
         closeBtnRect.size.height = displaySize.size.height * 0.085
         let tmpX = closeBtnRect.size.width - displaySize.size.width
         closeBtnRect.origin = CGPointMake(0, 0)
