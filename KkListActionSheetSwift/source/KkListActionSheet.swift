@@ -135,7 +135,7 @@ public class KkListActionSheet: UIView, UITableViewDelegate, UITableViewDataSour
         closeBtnRect.size.width = largeOrientation
         closeBtnRect.size.height = displaySize.size.height * 0.085
         let tmpX = closeBtnRect.size.width - displaySize.size.width
-        closeBtnRect.origin = CGPointMake(tmpX > 0 ? tmpX / 2 : 0, 0)
+        closeBtnRect.origin = CGPointMake(0, 0)
         kkCloseButton.frame = closeBtnRect
         
         centerY = kkActionSheet.center.y
